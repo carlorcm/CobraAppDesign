@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Inicio CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div id="footer-bar" class="footer-bar-5">
+            <a href="rutas-home.html"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="#"><i data-feather="credit-card" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Créditos</span></a>
+            <a href="finance-home.html" class="active-nav"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
+            <a href="#"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
+            <a href="#"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Opciones</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="page-title page-title-large">
+                <h2 data-username="Carlos" class="greeting-text"></h2>
+                <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="images/avatars/5s.png"></a>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="270">
+                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="card-body mb-n4">
+                <div class="card rounded-m mt-n3 mb-0">
+                    <div class="content mb-3 mt-3">
+                        <div class="d-flex">
+                            <div class="pr-4 align-self-center">
+                                <p class="font-600 color-highlight mb-0">Efectivo</p>
+                                <h1 class="mb-2">Q2,195</h1>
+                            </div>
+                            <div class="w-100 align-self-center pl-3">
+                                <h6 class="font-14 font-500">Cobrado<span class="float-right color-green2-dark">Q 4,100</span></h6>
+                                <div class="divider mb-2 mt-1"></div>
+                                <h6 class="font-14 font-500">Gastos<span class="float-right color-red2-dark">-Q 1,685</span></h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="content mx-0">
+                    <div class="row">
+                        <a href="#" class="col-4">
+                            <div class="card card-style text-center py-3 mx-0 mb-0">
+                                <i class="fa fa-money-bill-alt font-24 color-theme opacity-30"></i>
+                                <h6 class="font-16 font-500 mt-1 color-green2-dark">Q 4,900</h6>
+                                <p class="font-13 font-500 mb-n1 color-theme">Cobrar Hoy</p>
+                            </div>
+                        </a>
+                        <a href="#" class="col-4">
+                            <div class="card card-style text-center py-3 mx-0 mb-0">
+                                <i class="fa fa-briefcase font-24 color-theme opacity-30"></i>
+                                <h6 class="font-16 font-500 mt-1 color-green2-dark">Q 7,000</h6>
+                                <p class="font-13 font-500 mb-n1 color-theme">Base</p>
+                            </div>
+                        </a>
+                        <a href="#" class="col-4">
+                            <div class="card card-style text-center py-3 mx-0 mb-0">
+                                <i class="far fa-credit-card font-24 color-theme opacity-30"></i>
+                                <h6 class="font-16 font-500 mt-1 color-green2-dark">Q 6,500</h6>
+                                <p class="font-13 font-500 mb-n1 color-theme">Créditos</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-style">
+                <div class="content">
+                    <h5 class="float-left font-16">Créditos Otorgados</h5>
+                    <a class="float-right font-12 color-highlight mt-n1" href="#">Ver todos</a>
+                    <div class="clearfix"></div>
+                    <p>
+                        Todos los créditos otorgados hoy.
+                    </p>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/1s.png" class="mr-3 rounded-circle shadow-l bg-blue2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-3">Ana María Rodríguez</h5>
+                                </div>
+                                <div class="ml-auto mt-3">
+                                    <h6 class="font-16 font-500 color-green2-dark">Q 2,000</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-3 mb-3"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/2s.png" class="mr-3 rounded-circle shadow-l bg-blue2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-3">Pedro Antonio Chavez</h5>
+                                </div>
+                                <div class="ml-auto mt-3">
+                                    <h6 class="font-16 font-500 color-green2-dark">Q 3,000</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-3 mb-3"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/4s.png" class="mr-3 rounded-circle shadow-l bg-blue2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-3">Mario Andres Perez</h5>
+                                </div>
+                                <div class="ml-auto mt-3">
+                                    <h6 class="font-16 font-500 color-green2-dark">Q 1,000</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-style">
+                <div class="content">
+                    <h5 class="float-left font-16">Gastos</h5>
+                    <a class="float-right font-12 color-highlight mt-n1" href="#">Ver todos</a>
+                    <div class="clearfix"></div>
+                    <p>
+                        Gastos realizados en el día
+                    </p>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><a href="#" class="mr-3 icon icon-xs rounded-xl bg-pinterest"><i class="fas fa-money-bill-wave"></i></a></div>
+                                <div>
+                                    <h5 class="mt-2">Gasolina</h5>
+                                </div>
+                                <div class="ml-auto mt-2">
+                                    <h6 class="font-16 font-500 color-red2-dark">Q 150</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-3 mb-3"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><a href="#" class="mr-3 icon icon-xs rounded-xl bg-pinterest"><i class="fas fa-money-bill-wave"></i></a></div>
+                                <div>
+                                    <h5 class="mt-2">Pinchazo</h5>
+                                </div>
+                                <div class="ml-auto mt-2">
+                                    <h6 class="font-16 font-500 color-red2-dark">Q 35</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-3 mb-3"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><a href="#" class="mr-3 icon icon-xs rounded-xl bg-pinterest"><i class="fas fa-money-bill-wave"></i></a></div>
+                                <div>
+                                    <h5 class="mt-2">Sueldo</h5>
+                                </div>
+                                <div class="ml-auto mt-2">
+                                    <h6 class="font-16 font-500 color-red2-dark">Q 1,500</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+
+
+        <div id="menu-share" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-share.html" data-menu-height="420" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-colors.html" data-menu-height="510" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-pages" data-menu-effect="menu-over">
+        </div>
+
+        <!-- Be sure this is on your main visiting page, for example, the index.html page-->
+        <!-- Install Prompt for Android -->
+        <div id="menu-install-pwa-android" class="menu menu-box-bottom menu-box-detached rounded-l" data-menu-height="350" data-menu-effect="menu-parallax">
+            <div class="boxed-text-l mt-4">
+                <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+                <h4 class="mt-3">Azures on your Home Screen</h4>
+                <p>
+                    Install Azures on your home screen, and access it just like a regular app. It really is that simple!
+                </p>
+                <a href="#" class="pwa-install btn btn-s rounded-s shadow-l text-uppercase font-900 bg-highlight mb-2">Add to Home Screen</a><br>
+                <a href="#" class="pwa-dismiss close-menu color-gray2-light text-uppercase font-900 opacity-60 font-10">Maybe later</a>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Install instructions for iOS -->
+        <div id="menu-install-pwa-ios" class="menu menu-box-bottom menu-box-detached rounded-l" data-menu-height="320" data-menu-effect="menu-parallax">
+            <div class="boxed-text-xl mt-4">
+                <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+                <h4 class="mt-3">CobraApp en la pantalla de inicio de tu iPhone</h4>
+                <p class="mb-0 pb-3">
+                    Instala CobraApp en tu pantalla de inicio, podrás acceder como una aplicación común. Abre tu menú Safari y presiona "Agregar a Inicio".
+                </p>
+                <div class="clear"></div>
+                <a href="#" class="pwa-dismiss close-menu color-highlight font-800 opacity-80 text-center text-uppercase">Tal vez luego</a><br>
+                <i class="fa-ios-arrow fa fa-caret-down font-40"></i>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>

@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Ruta CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div id="footer-bar" class="footer-bar-5">
+            <a href="rutas-home.html" class="active-nav"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="#"><i data-feather="credit-card" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Créditos</span></a>
+            <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
+            <a href="#"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
+            <a href="#"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Opciones</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="d-flex">
+                <div class="">
+                    <div class="page-title page-title-large">
+                        <h2 data-username="Carlos" class="greeting-text-time"></h2>
+                    </div>
+                </div>
+                <div class="ml-auto page-title">
+                    <a href="ruta-create.html" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fa fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="140">
+                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="content">
+                <div class="search-box bg-theme rounded-m shadow-xl bottom-0 mt-n2">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="border-0" placeholder="Ingrese el nombre del cliente a buscar" data-search>
+                </div>
+            </div>
+
+            <div class="card card-style">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <div><img src="images/avatars/1s.png" class="rounded-circle shadow-l bg-red2-dark" width="50"></div>
+                        <div class="mt-auto ml-2">
+                            <h1 class="color-white bolder font-22">Olga Lidia Herrera Ayala</h1>
+                            <!-- <p class="line-height-xl font-19 font-500 color-white mb-1">
+                                Olga Lidia Herrera Ayala
+                            </p> -->
+                        </div>
+                    </div>
+                    <p class="line-height-xl font-15 font-300 color-white  mb-n1">
+                        Ciudad de Guatemala
+                    </p>
+                    <p class="line-height-xl font-15 font-300 color-white mb-n1">
+                        Identificación: 00000000000
+                    </p>
+                    <p class="line-height-xl font-15 font-300 color-white mb-0">
+                        Numero:
+                        <a href="tel:+502 5946-7977" class="color-white">5555-4444<i class="ml-2 fa fa-phone color-green1-dark font-16 opacity-50"></i></a>
+                    </p>
+                    <div class="card card-style ml-0 mr-0 bg-theme">
+                        <div class="row mt-3 pt-1 mb-3">
+                            <div class="col-6">
+                                <i class="float-left ml-2 mr-2" data-feather="dollar-sign" data-feather-line="1" data-feather-size="35" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light">
+                            </i>
+                                <h5 class="color-black float-left font-12 font-500 line-height-s pb-3 mb-3">Valor de la cuota:<br>Q 600</h5>
+                            </div>
+                            <div class="col-6">
+                                <i class="float-left mr-2" data-feather="check-square" data-feather-line="1" data-feather-size="35" data-feather-color="green1-dark" data-feather-bg="green1-fade-light">
+                            </i>
+                                <h5 class="color-black float-left font-13 font-500 line-height-s pb-3 mb-3">Cuotas pagas:<br>17 de 20</h5>
+                            </div>
+                            <div class="col-6">
+                                <i class="float-left ml-2 mr-2" data-feather="calendar" data-feather-line="1" data-feather-size="35" data-feather-color="yellow2-dark" data-feather-bg="yellow2-fade-light">
+                            </i>
+                                <h5 class="color-black float-left font-13 font-500 line-height-s">Modalidad:<br>Diaria</h5>
+                            </div>
+                            <div class="col-6">
+                                <i class="float-left mr-2" data-feather="file-text" data-feather-line="1" data-feather-size="35" data-feather-color="red1-dark" data-feather-bg="red1-fade-light">
+                            </i>
+                                <h5 class="color-black float-left font-13 font-500 line-height-s">Saldo:<br>Q 1,800</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-sm btn-full button-s shadow-l rounded-s text-uppercase font-900 bg-dark2-dark">No pagó</a>
+                        </div>
+                        <div class="col-6">
+                            <a data-menu="menu-add-card" class="btn btn-sm btn-full button-s shadow-l rounded-s text-uppercase font-900 bg-green1-dark">Pagar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-overlay bg-highlight"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+            </div>
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+        <div id="menu-add-card" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="auto" data-menu-effect="menu-over">
+            <div class="text-center pt-3 mb-2 ">
+                <div class="d-flex">
+                    <h1 class="ml-auto">Pagar Cuota</h1>
+                    <div class="ml-auto mr-3 mt-1">
+                        <a href="#" class="close-menu color-theme"><i class="fa fa-times font-22"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="divider divider-margins mb-n3"></div>
+            <div class="content pb-3">
+                <div class="row mb-0">
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">Fecha de pago:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme greeting-text-time-only"></p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">Crédito + Intereses:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme">Q1,200</p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">Pago a la fecha:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme">Q840</p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">Saldo pendiente:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme">Q360</p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">No Cuotas a pagar:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme">1</p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-4">
+                        <a href="#" class="icon icon-xs rounded-xs color-white border-gray2-dark icon-border color-gray2-dark"><i class="fa fa-minus"></i></a>
+                    </div>
+                    <div class="col-4 text-center m-auto">
+                        <p class="font-24 font-500 color-theme">60</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="ml-auto">
+                                <a href="#" class="icon icon-xs rounded-xs color-white border-gray2-dark icon-border color-gray2-dark"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-5">
+                        <p class="font-15 font-700 color-theme">Nuevo saldo:</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="font-13 color-theme">300</p>
+                    </div>
+                    <div class="divider divider-margins w-100 mt-2 mb-2"></div>
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="pt-1">
+                                <h5 data-activate="toggle-id-1" class="font-500 font-13">Valor Diferente a la cuota</h5>
+                            </div>
+                            <div class="ml-auto mr-4 pr-2">
+                                <div class="custom-control ios-switch">
+                                    <input type="checkbox" class="ios-input" id="toggle-id-1">
+                                    <label class="custom-control-label" for="toggle-id-1"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-switch="toggle-id-1" class="switch-is-unchecked mt-2">
+                            <div class="input-style input-style-2 input-required">
+                                <span class="color-highlight">Valor a pagar:</span>
+                                <input class="form-control" type="number" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-full btn-m bg-highlight btm-m rounded-sm shadow-xl font-900 text-uppercase mt-3">Pagar</a>
+            </div>
+
+        </div>
+
+        <div id="menu-share" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-share.html" data-menu-height="420" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-colors.html" data-menu-height="510" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-pages" data-menu-effect="menu-over">
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>

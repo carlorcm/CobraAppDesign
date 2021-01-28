@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Datos CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+
+        <div class="page-content">
+
+            <div class="page-title page-title-small">
+                <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Cuéntanos Más</h2>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="150">
+                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="card card-style">
+                <div class="content mb-0">
+                    <h3>Datos de la empresa</h3>
+                    <p>
+                        Configuremos tu perfil, si eres un usuario individual bastará con tus datos.
+                    </p>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-user"></i>
+                        <span class="color-highlight">Nombre de la empresa</span>
+                        <input class="form-control" type="name" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-user"></i>
+                        <span class="color-highlight">Nombre del propietario</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="name" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fas fa-envelope"></i>
+                        <span class="color-highlight">Email</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="email" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 input-required">
+                        <span>Selecciona tu Pais</span>
+                        <em><i class="fa fa-angle-down"></i></em>
+                        <select class="form-control">
+                            <option value="default" disabled selected>País</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Honduras">Honduras</option>
+                            <option value="Salvador">El Salvador</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="CostaRica">Costa Rica</option>
+                            <option value="Panama">Panamá</option>
+                            <option value="Belice">Belice</option>
+                        </select>
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-city"></i>
+                        <span class="color-highlight">Ciudad</span>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-phone"></i>
+                        <span class="color-highlight">Teléfono</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="tel" placeholder="">
+                    </div>
+
+                    <a href="#" class="btn btn-m btn-full rounded-sm shadow-l bg-blue2-dark text-uppercase font-900 mb-2">Continuar</a>
+
+                </div>
+
+            </div>
+
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+
+        <div id="menu-share" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-share.html" data-menu-height="420" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-load="menu-colors.html" data-menu-height="510" data-menu-effect="menu-over">
+        </div>
+
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-pages" data-menu-effect="menu-over">
+        </div>
+
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
