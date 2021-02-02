@@ -6,7 +6,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
-    <title>Ruta CobraApp</title>
+    <title>Clientes CobraApp</title>
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
@@ -25,8 +25,8 @@
 
         <!-- header and footer bar go here-->
         <div id="footer-bar" class="footer-bar-5">
-            <a href="rutas-home.html" class="active-nav"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
-            <a href="clientes-home.html"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
+            <a href="rutas-home.html"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="#" class="active-nav"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
             <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
             <a href="informes-home.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
             <a href="#"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Opciones</span></a>
@@ -37,15 +37,15 @@
             <div class="d-flex">
                 <div class="">
                     <div class="page-title page-title-large">
-                        <h2 data-username="Carlos" class="greeting-text-time"></h2>
+                        <h2 class="font-22 font-600 color-white">Clientes</h2>
                     </div>
                 </div>
                 <div class="ml-auto page-title">
-                    <a href="ruta-create.html" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fa fa-plus"></i></a>
+                    <a href="clientes-create.html" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fa fa-plus"></i></a>
                 </div>
             </div>
             <div class="card header-card shape-rounded" data-card-height="140">
-                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay bg-highlight opacity-90"></div>
                 <div class="card-overlay dark-mode-tint"></div>
                 <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
             </div>
@@ -58,75 +58,126 @@
             </div>
 
             <div class="card card-style">
-                <div class="card-body pb-3">
-                    <div class="d-flex">
-                        <div><img src="images/avatars/1s.png" class="rounded-circle shadow-l bg-red2-dark" width="50"></div>
-                        <div class="mt-auto ml-2">
-                            <h1 class="color-white bolder font-22 mb-0">Olga Lidia Herrera Ayala</h1>
-                            <p class="color-white font-10 text-uppercase d-block font-700 font-10 opacity-50 mb-0">Ciudad de Guatemala</p>
-                            <!-- <p class="line-height-xl font-19 font-500 color-white mb-1">
-                                Olga Lidia Herrera Ayala
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                        <p class="color-white font-10 text-uppercase d-block mb-n2 font-700 font-10 opacity-50">Identificación</p>
-                        <p class="color-white font-20 text-uppercase mb-3 font-800 font-10">1234 5678 9012 3456</p>
-                    </div>
-                    <div class="mt-4">
-                        <div class="d-flex">
-                            <div>
-                                <p class="color-white font-10 text-uppercase d-block mb-n2 font-700 font-10 opacity-50">Teléfono:</p>
-                                <a href="tel:+502 5946-7977" class="color-white font-20 text-uppercase font-800 font-10">5555-4444<i class="ml-2 fa fa-phone color-green1-dark font-16 opacity-50"></i></a>
-                            </div>
-                            <div class="ml-auto">
-                                <p class="color-white text-right text-uppercase font-700 font-10 mb-n2 font-10 opacity-50">Vencimiento</p>
-                                <p class="mb-2 color-white text-right font-700 font-10 font-16">03-04-2021</p>
+                <div class="content">
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/1s.png" class="mr-3 rounded-circle shadow-l bg-red2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Doe</h5>
+                                    <p class="font-10 mt-n1 color-red2-dark">Informacion</p>
+                                </div>
+                                <div class="ml-auto">
+                                    <a href="page-profile.html"><span class="badge bg-red2-dark mt-2 p-2 font-8">VER</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card card-style ml-0 mr-0 mb-3 bg-theme">
-                        <div class="row mt-3 pt-1 mb-3">
-                            <div class="col-6">
-                                <i class="float-left ml-2 mr-2" data-feather="dollar-sign" data-feather-line="1" data-feather-size="35" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light">
-                            </i>
-                                <h5 class="color-theme float-left font-12 font-500 line-height-s mb-0">Valor de la cuota:</h5>
-                                <h5 class="color-blue2-dark float-left font-12 font-800 line-height-s pb-3 mb-3">Q 600</h5>
-                            </div>
-                            <div class="col-6">
-                                <i class="float-left mr-2" data-feather="check-square" data-feather-line="1" data-feather-size="35" data-feather-color="green1-dark" data-feather-bg="green1-fade-light">
-                            </i>
-                                <h5 class="color-theme float-left font-13 font-500 line-height-s">Cuotas pagas:</h5>
-                                <br>
-                                <h5 class="color-theme float-left font-12 font-800 line-height-s pb-3 mb-3 mt-n2">17 de 20</h5>
-                            </div>
-                            <div class="col-6">
-                                <i class="float-left ml-2 mr-2" data-feather="calendar" data-feather-line="1" data-feather-size="35" data-feather-color="yellow2-dark" data-feather-bg="yellow2-fade-light">
-                            </i>
-                                <h5 class="color-theme float-left font-12 font-500 line-height-s">Modalidad:</h5>
-                                <br>
-                                <h5 class="color-theme float-left font-12 font-800 line-height-s mt-n2">Diaria</h5>
-                            </div>
-                            <div class="col-6">
-                                <i class="float-left mr-2" data-feather="file-text" data-feather-line="1" data-feather-size="35" data-feather-color="red1-dark" data-feather-bg="red1-fade-light">
-                            </i>
-                                <h5 class="color-black float-left font-13 font-500 line-height-s">Saldo:</h5>
-                                <br>
-                                <h5 class="color-theme float-left font-12 font-800 line-height-s mt-n2">Q 1,800</h5>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/2s.png" class="bg-green1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Alexander Mac</h5>
+                                    <p class="font-10 mt-n1 color-green1-dark">Support Team Manager</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-green1-dark mt-2 p-2 font-8">VER</span></a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-0">
-                        <div class="col-6">
-                            <a data-menu="menu-warning-1" class="btn btn-sm btn-full button-s shadow-l rounded-s text-uppercase font-900 bg-dark2-dark">No pagó</a>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/5s.png" class="bg-yellow1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Unixer</h5>
+                                    <p class="font-10 mt-n1 color-blue2-dark">Executive Officer</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-blue2-dark mt-2 p-2 font-8">VER</span></a></div>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <a data-menu="menu-add-ruta" class="btn btn-sm btn-full button-s shadow-l rounded-s text-uppercase font-900 bg-green1-dark">Pagar</a>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/1s.png" class="mr-3 rounded-circle shadow-l bg-red2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Doe</h5>
+                                    <p class="font-10 mt-n1 color-red2-dark">Informacion</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-red2-dark mt-2 p-2 font-8">VER</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/2s.png" class="bg-green1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Alexander Mac</h5>
+                                    <p class="font-10 mt-n1 color-green1-dark">Support Team Manager</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-green1-dark mt-2 p-2 font-8">VER</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/5s.png" class="bg-yellow1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Unixer</h5>
+                                    <p class="font-10 mt-n1 color-blue2-dark">Executive Officer</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-blue2-dark mt-2 p-2 font-8">VER</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/1s.png" class="mr-3 rounded-circle shadow-l bg-red2-dark" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Doe</h5>
+                                    <p class="font-10 mt-n1 color-red2-dark">Informacion</p>
+                                </div>
+                                <div class="ml-auto"> <a href="page-profile.html"><span class="next-slide-user badge bg-red2-dark mt-2 p-2 font-8">VER</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/2s.png" class="bg-green1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Alexander Mac</h5>
+                                    <p class="font-10 mt-n1 color-green1-dark">Support Team Manager</p>
+                                </div>
+                                <div class="ml-auto"><span class="next-slide-user badge bg-green1-dark mt-2 p-2 font-8">VER</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-1"></div>
+                    <div class="user-slider">
+                        <div class="user-left">
+                            <div class="d-flex">
+                                <div><img src="images/avatars/5s.png" class="bg-yellow1-dark mr-3 rounded-circle shadow-l" width="50"></div>
+                                <div>
+                                    <h5 class="mt-1 mb-0">Johnatan Unixer</h5>
+                                    <p class="font-10 mt-n1 color-blue2-dark">Executive Officer</p>
+                                </div>
+                                <div class="ml-auto"><span class="next-slide-user badge bg-blue2-dark mt-2 p-2 font-8">VER</span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-overlay bg-highlight"></div>
-                <div class="card-overlay dark-mode-tint"></div>
             </div>
             <!-- footer and footer card-->
         </div>

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Nuevo Cliente</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+
+        <div class="page-content">
+
+            <div class="page-title page-title-small">
+                <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Regresar</h2>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="150">
+                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="card card-style">
+                <div class="content">
+                    <h3>Validación</h3>
+                    <p>
+                        Ingrese el número de identificación del nuevo cliente.
+                    </p>
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon far fa-id-badge"></i>
+                        <span class="color-highlight">Identificación</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="number" placeholder="">
+                    </div>
+                    <a href="#" class="btn btn-full btn-m bg-highlight btm-m rounded-sm shadow-xl font-900 text-uppercase mt-3">Validar</a>
+                </div>
+
+            </div>
+
+            <div class="card card-style">
+                <div class="content">
+                    <h3>Datos del cliente</h3>
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-user"></i>
+                        <span class="color-highlight">Nombre</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="name" placeholder="">
+                    </div>
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon fa fa-user"></i>
+                        <span class="color-highlight">Apellido</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="name" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 input-required">
+                        <span>Género</span>
+                        <em><i class="fa fa-angle-down"></i></em>
+                        <select class="form-control">
+                            <option value="default" disabled selected>Seleccionar</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Masculino">Masculino</option>
+                        </select>
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon  fas fa-map-marked-alt"></i>
+                        <span class="color-highlight">Dirección</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon  fas fa-map-marker-alt"></i>
+                        <span class="color-highlight">Ciudad</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon  fas fa-phone"></i>
+                        <span class="color-highlight">Teléfono</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="tel" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon  far fa-calendar-alt"></i>
+                        <span class="color-highlight">Cobrar después de</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="date" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 has-icon input-required">
+                        <i class="input-icon  fas fa-envelope"></i>
+                        <span class="color-highlight">Correo electrónico</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="email" placeholder="">
+                    </div>
+
+                    <div class="input-style input-style-2 input-required">
+                        <span class="color-highlight">Observaciones</span>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-full btn-m bg-highlight btm-m rounded-sm shadow-xl font-900 text-uppercase">Guardar</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-full btn-m bg-highlight btm-m rounded-sm shadow-xl font-900 text-uppercase">Guardar y crear</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>

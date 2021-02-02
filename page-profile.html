@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Perfil CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div id="footer-bar" class="footer-bar-5">
+            <a href="rutas-home.html"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="clientes-home.html" class="active-nav"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
+            <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
+            <a href="informes-home.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
+            <a href="#"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Opciones</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="page-title page-title-small">
+                <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Perfil Cliente</h2>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="150">
+                <div class="card-overlay bg-highlight opacity-95"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="card card-style">
+                <div class="d-flex content mb-1">
+                    <!-- left side of profile -->
+                    <div class="flex-grow-1">
+                        <h1 class="font-700">Nombre Cliente<i class="fa fa-check-circle color-blue2-dark float-right font-13 mt-2 mr-3"></i></h1>
+                        <p class="mb-2">
+                            Ciudad de Guatemala
+                        </p>
+                    </div>
+                    <!-- right side of profile. increase image width to increase column size-->
+                    <img src="images/empty.png" data-src="images/avatars/4s.png" width="115" class="bg-highlight rounded-circle mt-3 shadow-xl preload-img">
+                </div>
+                <!-- follow buttons-->
+                <div class="content">
+                    <div class="row mb-0">
+                        <div class="col-6">
+                            <a href="page-profile-edit.html" class="btn btn-full btn-sm rounded-s text-uppercase font-900 bg-blue2-dark">Editar</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-full btn-sm btn-border rounded-s text-uppercase font-900 color-highlight border-blue2-dark">Llamar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-style">
+                <div class="content">
+                    <h4 class="mb-n1">Datos</h4>
+                    <p>
+                        Información del cliente:
+                    </p>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="color-theme font-700">Nombre</p>
+                        </div>
+                        <div class="col-8">
+                            <p class="font-400">Nombre Nombre</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p class="color-theme font-700">Apellido</p>
+                        </div>
+                        <div class="col-8">
+                            <p class="font-400">Apellido Apellido</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p class="color-theme font-700">Dirección</p>
+                        </div>
+                        <div class="col-8">
+                            <p class="font-400">Ciudad de Guatemala Colonia Villas del Pedregal</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p class="color-theme font-700">Correo</p>
+                        </div>
+                        <div class="col-8">
+                            <p class="font-400">carlos@gmail.com</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p class="color-theme font-700">Teléfono</p>
+                        </div>
+                        <div class="col-8">
+                            <p class="font-400">5555-4444</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <a href="#" class="btn btn-full bg-highlight btn-m text-uppercase font-900 rounded-s shadow-xl">Agregar Crédito</a>
+                </div>
+            </div>
+
+
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
