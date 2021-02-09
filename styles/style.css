@@ -1967,6 +1967,12 @@ img.mx-auto {
     height: 50px
 }
 
+.ad-350x50 {
+    margin: 0 auto;
+    width: 350px;
+    height: 35px
+}
+
 .ad-300x250 {
     margin: 0 auto;
     width: 300px;
@@ -1976,6 +1982,16 @@ img.mx-auto {
 .ad-300x50-fixed {
     left: 50%;
     margin-left: -150px;
+    bottom: 60px;
+    bottom: calc(65px + (constant(safe-area-inset-bottom))*1.1) !important;
+    bottom: calc(65px + (env(safe-area-inset-bottom))*1.1) !important;
+    position: fixed;
+    z-index: 90
+}
+
+.ad-350x50-fixed {
+    left: 50%;
+    margin-left: -175px;
     bottom: 60px;
     bottom: calc(65px + (constant(safe-area-inset-bottom))*1.1) !important;
     bottom: calc(65px + (env(safe-area-inset-bottom))*1.1) !important;

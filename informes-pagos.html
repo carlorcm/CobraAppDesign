@@ -33,13 +33,21 @@
         </div>
 
         <div class="page-content">
-
-            <div class="d-flex">
-                <div class="page-title page-title-small">
-                    <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Resumen</h2>
+            <div class="row">
+                <div class="col-8">
+                    <div class="page-title page-title-small">
+                        <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Resumen</h2>
+                    </div>
                 </div>
-                <div class="ml-auto page-title">
-                    <a href="#" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fas fa-print"></i></a>
+                <div class="col-4">
+                    <div class="d-flex">
+                        <div class="ml-auto page-title">
+                            <a data-menu="menu-change-date" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="far fa-calendar-alt"></i></a>
+                        </div>
+                        <div class="ml-auto page-title">
+                            <a href="#" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fas fa-print"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +57,7 @@
                 <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
             </div>
 
-            <div class="card card-style mb-3">
+            <!-- <div class="card card-style mb-3">
                 <div class="content mb-0">
                     <div class="input-style input-style-2 input-required mb-">
                         <span class="color-highlight input-style-1-active">Seleccionar fecha del resumen</span>
@@ -57,40 +65,137 @@
                         <input type="date">
                     </div>
                 </div>
+            </div> -->
+
+            <div class="content">
+                <div class="search-box bg-theme rounded-m shadow-l">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="border-0" placeholder="Ingrese el nombre del cliente a buscar" data-search>
+                </div>
+            </div>
+
+            <div class="content-boxed bg-highlight mb-3">
+                <h4 class="color-white text-center font-500 mt-n3">Total: Q 8,999</h4>
             </div>
 
             <div class="card card-style mb-3">
                 <div class="content">
                     <div class="row mb-0">
-                        <div class="col-6 text-left">
+                        <div class="col-9">
                             <h5 class="font-600">Nombre Apellido</h5>
-                            <h6 class="font-400">Valor Pagado:</h6>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
                         </div>
-                        <div class="col-6 text-right m-auto">
-                            <h5 class="font-600 mt-2">Q1998<sup>.98</sup></h5>
-                            <a href="#" class="icon-xs"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">7:59 pm</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
                         </div>
                         <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
+                            <div class="divider mt-1 mb-2"></div>
                         </div>
-                        <div class="col-6 text-left">
+                        <div class="col-9">
                             <h5 class="font-600">Nombre Apellido</h5>
-                            <h6 class="font-400">Valor Pagado: Q1998<sup>.98</sup></h6>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
                         </div>
-                        <div class="col-6 text-right m-auto">
-                            <a href="#" class="icon-m"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="divider mt-1 mb-2"></div>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="font-600">Nombre Apellido</h5>
+                            <h6 class="font-400 float-left">Valor Pagado:</h6>
+                            <h6 class="font-600">Q1998<sup>.98</sup></h6>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h6 class="font-600 mb-n2">10:05 am</h6>
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div class="content-boxed bg-black mb-4">
-            </div>
-
             <!-- footer and footer card-->
         </div>
         <!-- end of page content-->
+
+        <div id="menu-change-date" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="auto" data-menu-effect="menu-over">
+            <div class="content mb-0">
+                <div class="input-style input-style-2 input-required mb-">
+                    <span class="color-highlight input-style-1-active">Seleccionar fecha del resumen</span>
+                    <em><i class="fa fa-angle-down"></i></em>
+                    <input type="date">
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="ad-350x50 ad-350x50-fixed bg-highlight mb-2">
+            <h6 class="color-white text-center mt-2 font-14 font-700 text-uppercase">Total: Q8,999</h6>
+        </div> -->
 
     </div>
 
