@@ -36,7 +36,7 @@
 
             <div class="d-flex">
                 <div class="page-title page-title-small">
-                    <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Resumen</h2>
+                    <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Resumen del día</h2>
                 </div>
                 <div class="ml-auto page-title">
                     <a href="#" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fas fa-print"></i></a>
@@ -59,105 +59,69 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-6 text-center">
-                    <div class="item bg-green1-light rounded-m shadow-m ml-3">
-                        <div class="content">
-                            <i class="mb-1" data-feather="package" data-feather-line="1" data-feather-size="45" data-feather-color="green2-dark" data-feather-bg="green2-fade-light"></i>
-                            <h6 class="line-height-s font-14 font-300">CAJA:</h6>
-                            <h5 class="font-16">Abierta</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 text-center">
-                    <div class="item bg-theme rounded-m shadow-m mr-3">
-                        <div class="content">
-                            <i class="mb-1" data-feather="dollar-sign" data-feather-line="1" data-feather-size="45" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i>
-                            <h6 class="line-height-s font-14 font-300">EFECTIVO:</h6>
-                            <h5 class="font-16">Q 500</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-style mb-3">
+            <div class="card card-style mt-4">
                 <div class="content">
-                    <div class="row mb-0">
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Base del día:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">Q1998<sup>.98</sup></h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">No de Pagos:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">25</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Total Esperado:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">Q 2,800</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Porcentaje Recaudado:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">85%</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Total de Pagos:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">25</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Retiros:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">10</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Créditos realizados:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">5</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
-                        </div>
-                        <div class="col-6 text-left">
-                            <h5 class="font-600">Total créditos:</h5>
-                        </div>
-                        <div class="col-6 text-right">
-                            <h5 class="font-600">5</h5>
-                        </div>
-                        <div class="col-12">
-                            <div class="divider mt-1 mb-1"></div>
+                    <div class="progress rounded-sm shadow-xl border border-fade-green1-dark" style="height:28px">
+                        <div class="progress-bar bg-green1-dark text-left pl-3 color-white" role="progressbar" style="width: 83%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                            Porcentaje recaudado: 83%
                         </div>
                     </div>
+                    <div class="divider mt-4 mb-2"></div>
+                    <div class="d-flex">
+                        <div class="pr-4 align-self-center">
+                            <p class="font-600 color-highlight mb-0">Efectivo</p>
+                            <h1 class="mb-2">Q4500</h1>
+                        </div>
+                        <div class="w-100 align-self-center pl-3">
+                            <h6 class="font-14 font-500">Cobrado<span class="float-right color-green2-dark">Q3.115</span></h6>
+                            <div class="divider mb-2 mt-1"></div>
+                            <h6 class="font-14 font-500">Gastos<span class="float-right color-red2-dark">Q185</span></h6>
+                        </div>
+                    </div>
+                    <div class="divider mt-2 mb-2"></div>
+                    <div class="row mb-0">
+                        <div class="col-6 pr-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">Base</h6>
+                                <h3 class="color-highlight font-15 mb-0">Q 5,000</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 pl-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">Total en créditos</h6>
+                                <h3 class="color-highlight font-15 mb-0">Q 5,000</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 pr-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">No. Pagos</h6>
+                                <h3 class="color-highlight font-15 mb-0">5</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 pl-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">Pagos totales</h6>
+                                <h3 class="color-highlight font-15 mb-0">5</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 pr-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">Esperado</h6>
+                                <h3 class="color-highlight font-15 mb-0">Q5,000</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 pl-1">
+                            <div class="mx-0 mb-3">
+                                <h6 class="font-13 font-400 mb-0">Créditos en total</h6>
+                                <h3 class="color-highlight font-15 mb-0">6</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-0 mb-2"></div>
+                    <a href="#" class="btn btn-full bg-highlight rounded-sm shadow-xl btn-m">
+                        <p class="font-600 font-18 color-white text-uppercase">Caja: Abierta</p>
+                    </a>
                 </div>
-
             </div>
 
             <!-- footer and footer card-->
