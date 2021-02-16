@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
 </head>
 
-<body class="theme-light" data-highlight="red2">
+<body class="theme-light" data-highlight="highlight">
 
     <div id="preloader">
         <div class="spinner-border color-highlight" role="status"></div>
@@ -29,14 +29,14 @@
             <a href="clientes-home.html"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
             <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
             <a href="informes-home.html" class="active-nav"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
-            <a href="#"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Opciones</span></a>
+            <a href="#" data-menu="menu-main"><i data-feather="menu" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Menú</span></a>
         </div>
 
         <div class="page-content">
             <div class="row">
                 <div class="col-8">
                     <div class="page-title page-title-small">
-                        <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Créditos no Cuotas</h2>
+                        <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Créditos no pagados</h2>
                     </div>
                 </div>
                 <div class="col-4">
@@ -52,7 +52,7 @@
             </div>
 
             <div class="card header-card shape-rounded" data-card-height="140">
-                <div class="card-overlay bg-highlight opacity-90"></div>
+                <div class="card-overlay bg-red2-dark opacity-90"></div>
                 <div class="card-overlay dark-mode-tint"></div>
                 <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
             </div>
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="content-boxed bg-highlight mb-3">
+            <div class="content-boxed bg-red2-dark mb-3">
                 <h4 class="color-white text-center font-500 mt-n3">Total: Q 8,999</h4>
             </div>
 
@@ -182,6 +182,8 @@
             <!-- footer and footer card-->
         </div>
         <!-- end of page content-->
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-pages" data-menu-effect="menu-over">
+        </div>
 
         <div id="menu-change-date" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="auto" data-menu-effect="menu-over">
             <div class="content mb-0">
