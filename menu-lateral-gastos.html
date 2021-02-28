@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Base CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div id="footer-bar" class="footer-bar-5">
+            <a href="rutas-home.html"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="clientes-home.html"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
+            <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
+            <a href="informes-home.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
+            <a href="#" data-menu="menu-main" class="active-nav"><i data-feather="menu" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Menú</span></a>
+        </div>
+
+        <div class="page-content">
+            <div class="page-title page-title-small">
+                <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a>Agregar Gasto</h2>
+            </div>
+
+            <div class="card header-card shape-rounded" data-card-height="140">
+                <div class="card-overlay bg-highlight opacity-90"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="card card-style mb-3">
+                <div class="content mb-0">
+                    <div class="input-style input-style-2 input-required mb-">
+                        <span class="color-highlight input-style-1-active">Seleccionar fecha</span>
+                        <em><i class="fa fa-angle-down"></i></em>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-style mb-3">
+                <div class="content">
+                    <div class="input-style input-style-2 input-required mb-">
+                        <span class="input-style-1-active">Seleccionar gasto</span>
+                        <em><i class="fa fa-angle-down"></i></em>
+                        <select class="form-control">                            
+                                <option value="Gasolina">Gasolina</option>
+                                <option value="Alimentos">Alimentos</option>  
+                                <option value="Gasolina">Otros</option>
+                                <option value="Alimentos">Otros</option>                              
+                            </select>
+                    </div>
+                    <div class="divider mt-0 mb-3"></div>
+                    <div class="input-style input-style-2 input-required mb-">
+                        <span class="color-highlight input-style-1-active">Agregar monto</span>
+                        <em>(requerido)</em>
+
+                        <input class="form-control" type="number" placeholder="Q 0.00">
+                    </div>
+                    <div class="divider mt-0 mb-3"></div>
+                    <div class="input-style input-style-2 input-required mb-">
+                        <span class="color-highlight input-style-1-active">Describir gasto</span>
+                        <em>(requerido)</em>
+                        <input class="form-control" type="text" placeholder="Ingresar descripción">
+                    </div>
+                    <a href="#" class="btn btn-full bg-highlight btn-m text-uppercase font-900 rounded-s shadow-xl">Guardar</a>
+                </div>
+            </div>
+
+            <div class="card card-style mb-3">
+                <div class="content">
+                    <div class="d-flex">
+                        <div class="align-self-center">
+                            <h4 class="font-600">Gasolina</h4>
+                        </div>
+                        <div class="align-self-center ml-auto">
+                            <a href="#" class="icon-xl"><i class="far fa-trash-alt color-red1-dark"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="divider mt-1 mb-2"></div>
+
+                    <div class="d-flex">
+                        <div class="align-self-center">
+                            <h4 class="font-600">Fecha</h4>
+                        </div>
+                        <div class="align-self-center ml-auto">
+                            <h5 class="font-400 float-left mr-1">18-02-2021</h5>
+                            <h5 class="font-600 float-left">9:00 pm</h5>
+                        </div>
+                    </div>
+                    <div class="divider mt-1 mb-2"></div>
+                    <div class="d-flex">
+                        <div class="align-self-center">
+                            <h4 class="font-600">Valor</h4>
+                        </div>
+                        <div class="align-self-center ml-auto">
+                            <h5 class="font-400 color-green1-dark">Q 100</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer and footer card-->
+
+        </div>
+        <!-- end of page content-->
+
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-gastos" data-menu-effect="menu-over">
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>

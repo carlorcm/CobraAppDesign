@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Creditos CobraApp</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-152x152.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <!-- header and footer bar go here-->
+        <div id="footer-bar" class="footer-bar-5">
+            <a href="rutas-home.html"><i data-feather="map" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Ruta</span></a>
+            <a href="clientes-home.html"><i data-feather="users" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Clientes</span></a>
+            <a href="finance-home.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Inicio</span></a>
+            <a href="informes-home.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="yellow1-dark" data-feather-bg="yellow1-fade-light"></i><span>Informes</span></a>
+            <a href="#" data-menu="menu-main" class="active-nav"><i data-feather="menu" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Menú</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="d-flex">
+                <div class="">
+                    <div class="page-title page-title-large">
+                        <h2 class="font-22 font-600 color-white">Créditos</h2>
+                    </div>
+                </div>
+                <div class="ml-auto page-title">
+                    <a href="ruta-create.html" class="icon icon-m rounded-xl color-white bg-fade-gray1-dark"><i class="fa fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="card header-card shape-rounded" data-card-height="140">
+                <div class="card-overlay bg-highlight opacity-90"></div>
+                <div class="card-overlay dark-mode-tint"></div>
+                <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+            </div>
+
+            <div class="content">
+                <div class="search-box bg-theme rounded-m shadow-xl bottom-0">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="border-0" placeholder="Ingrese el nombre del cliente a buscar" data-search>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" class="btn btn-full btn-m rounded-s text-uppercase font-900 shadow-xl bg-highlight">Al día</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="btn btn-full btn-border btn-m rounded-s text-uppercase font-900 shadow-l border-highlight color-highlight">Vencidos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-style" data-card-height="200">
+                <div class="card-center text-center">
+                    <img data-src="images/avatars/1s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-blue1" src="images/avatars/1s.png" style="opacity: 1;">
+                    <h1 class="color-theme font-40 mb-0">Azures</h1>
+                    <h1 class="color-theme font-14">BUYER AUTHENTICITY CARD</h1>
+                </div>
+                <p class="card-bottom mb-3 font-300 text-center font-12 color-theme opacity-50">
+                    This card shows you're absolutely awesome!
+                </p>
+                <div class="card-overlay bg-theme"></div>
+            </div>
+
+            <!-- footer and footer card-->
+        </div>
+        <!-- end of page content-->
+
+        <div id="menu-main" class="menu menu-box-right menu-box-detached rounded-m" data-menu-width="260" data-menu-load="menu-main.html" data-menu-active="nav-creditos" data-menu-effect="menu-over">
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
