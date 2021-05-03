@@ -1,5 +1,5 @@
 {
-    "version": "2.5",
+    "version": "3.1",
     "comment": "---Above version must be the same as data-pwa-version",
     "comment": "---data-pwa-version can be found in index.html in the manifest tag",
     "comment": "---if versions are not the same it will cause an update loop",
@@ -7,7 +7,7 @@
     "name": "CobraApp",
     "scope": "http://cobraapp.byethost12.com/",
     "display": "fullscreen",
-    "start_url": "http://cobraapp.byethost12.com/index.html",
+    "start_url": "http://cobraapp.byethost12.com/finance-home.html",
     "short_name": "CobraApp",
     "description": "",
     "orientation": "portrait",
